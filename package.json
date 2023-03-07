@@ -1,11 +1,11 @@
 {
-  "name": "svelte-ts-tailwind-app",
+  "name": "svelte-quoteboard",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv public",
+    "start": "dotnet watch run",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
   "devDependencies": {
